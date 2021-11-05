@@ -9,7 +9,7 @@ const apikey ='2xdgrvhy7jjs';
 
 const client = StreamChat.getInstance(apikey)
  
-const authToken =false;
+const authToken =true;
 function App() {
   if(!authToken) return <Auth />
   return (
