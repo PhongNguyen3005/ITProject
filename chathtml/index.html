@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <title>Faceshow</title>
+</head>
+
+<body>
+    <div>
+        <div class="container-fluid">
+            <div class="row flex-xl-nowrap overside">
+
+                <!-- Sidebar ben phai -->
+                <div class="d-md-none d-none d-lg-block col-xl-2 sidebar p-0">
+                    <div class="row smallbox">
+                        <!-- Channel-list -->
+                        <div class="col-md-3 col-xl-3 channel-list">
+                            <div class="channel-list__sidebar__icon1">
+                                <div class="icon1__inner">
+                                    <img src='./assets/add.png' alt="Add" width="30" />
+                                </div>
+                            </div>
+                            <div class="channel-list__sidebar__icon2">
+                                <div class="icon1__inner">
+                                    <img src='./assets/logout.png' alt="Logout" width="30" />
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Roomname  -->
+                        <div class="p-0 col-md-9 col-xl-9">
+                            <div class="d-none d-lg-block faceshow">Faceshow</div>
+                            <div class="channelist__container">
+                                <div class="channellist__name">
+                                    <span>Name of channel</span>
+                                    <span class="fas fa-user-plus"></span>
+                                </div>
+                                <ui class="invite">
+                                    <div class="form-group mx-sm-1 mb-5">
+                                        <form>
+                                            <input type="text" class="form-control" placeholder="ID">
+                                        </form>
+                                    </div>
+                                </ui>
+                            </div>
+                            <!-- Action-control box -->
+                            <div class="action-control">
+                                <div class="control-action-box">
+                                    <div className="user-avatar col-xl-2">
+                                        <img className="imge-avatar" width="20"
+                                            src="https://image.flaticon.com/icons/png/512/1177/1177568.png"
+                                            alt="avatar" />
+                                    </div>
+                                    <div className="display- col-xl-6">
+                                        <span class="name__user">Phong Nguyen</span>
+                                        <span onclick="voiceFunction()" class="voice col-xl-2">
+                                            <img id="imgevoice" src="assets/ablevoice.png" alt="ablevoice" width="20" />
+                                        </span>
+                                        <span onclick="phoneFunction()" class="headphones col-xl-2">
+                                            <img id="imgephone" src="assets/headphones.png" alt="phone" width="20" />
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Message content -->
+                <div class="col-12 col-md-9 col-xl-8 py-md-3 p1-md-5 bd-content">
+                    <div class="chat-messages">
+                        <div class="message">
+                            <p class="meta">Nothing <span>9:12pm</span></p>
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+                                repudiandae.
+                            </p>
+                        </div>
+                        <div class="message">
+                            <p class="meta">Vỹ siêu cấp vip-pro <span>9:15pm</span></p>
+                            <p class="text">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi,
+                                repudiandae.
+                            </p>
+                        </div>
+
+                    </div>
+                    <div class="chat-form-container">
+                        <form id="chat-form">
+                            <input id="msg" type="text" placeholder="Enter Message" required autocomplete="off" />
+                            <button class="btn"><i class="fas fa-paper-plane"></i> Send</button>
+                        </form>
+                    </div>
+                </div>
+                <!-- sidebar ben phai -->
+                <div class="d-none d-lg-block col-xl-2 p-0 sidebar-r">
+
+                    <div class="status__user">
+                        <span class="online">
+                            Online
+                        </span>
+                        <span class="number__online">2</span>
+                    </div>
+                    <div class="dropdown">
+                        <div class="user__online">
+                            <img className="imge-avatar" width="30"
+                                src="https://image.flaticon.com/icons/png/512/1177/1177568.png" alt="avatar" />
+                            <span class="name__user">Phong Nguyen</span>
+                        </div>
+
+                        <ui class="dropdown__list">
+                            <li class="dropdown__item">
+                                <span>Profile</span>
+                                <i class="fas fa-id-badge"></i>
+                            </li>
+                            <li class="dropdown__item">
+                                <span>Kick</span>
+                                <i class="fas fa-user-times"></i>
+                            </li>
+                        </ui>
+                    </div>
+                    <div class="dropdown">
+                        <div class="user__online">
+                            <img className="imge-avatar" width="30"
+                                src="https://image.flaticon.com/icons/png/512/1177/1177568.png" alt="avatar" />
+                            <span class="name__user">Phong Nguyen</span>
+                        </div>
+                        <ui class="dropdown__list">
+                            <li class="dropdown__item">
+                                <span>Profile</span>
+                                <i class="fas fa-id-badge"></i>
+                            </li>
+                            <li class="dropdown__item">
+                                <span>Kick</span>
+                                <i class="fas fa-user-times"></i>
+                            </li>
+                        </ui>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script>
+        function voiceFunction() {
+            if (document.getElementById("imgevoice").alt == "ablevoice") {
+                document.getElementById("imgevoice").src = './assets/disablevoice.png';
+                document.getElementById("imgevoice").alt = "disablevoice"
+            }
+            else if (document.getElementById("imgevoice").alt == "disablevoice") {
+                document.getElementById("imgevoice").src = './assets/ablevoice.png';
+                document.getElementById("imgevoice").alt = "ablevoice"
+            }
+        }
+        function phoneFunction() {
+            if (document.getElementById("imgephone").alt == "phone") {
+                document.getElementById("imgephone").src = './assets/mutephone.png';
+                document.getElementById("imgephone").alt = "disablephone"
+            }
+            else if (document.getElementById("imgephone").alt == "disablephone") {
+                document.getElementById("imgephone").src = './assets/headphones.png';
+                document.getElementById("imgephone").alt = "phone"
+            }
+        }
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
