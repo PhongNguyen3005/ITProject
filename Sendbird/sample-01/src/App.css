@@ -168,31 +168,7 @@ a {
 
 }
 
-.channelist__container:hover .invite{
-	display: block;
-}
-.invite:hover{
-	background-color: #fa5f54;
-	border-radius: 5px;
-}
-.action-control{
-    height: calc(6vh);
-    background-color:#fa5f54;
-    position: absolute;
-    top: 100%;
-    transform: translateY(-100%);
-}
-.voice{
-    background-color: #fa5f54;
-    border: none;
-    display: inline-block;
-	cursor: pointer;
-   
-  }
-.testing {
-	border: none !important;
-	background-color: #fa7268;
-}
+
   .button {
 	background-color: #4CAF50; /* Green */
 	border: none;
@@ -204,23 +180,7 @@ a {
 	font-size: 16px;
 	box-shadow: none;
   }
-  .headphones{
-    background-color:#fa5f54;
-    border: none;
-	cursor: pointer;
-    display: inline-block;
-  }
-.control-action-box{
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
-.nav-bar{
-	background-color: #fa7268;
-	height: calc(6vh);
-	position: absolute;
-	left: 310px;
-}
+
 
 	
 /* Chat Page */
@@ -280,7 +240,7 @@ a {
 .chat-messages .message {
 	padding: 10px;
 	margin-bottom: 15px;
-	background-color: #fa726844;
+	background-color: none;
 	border-radius: 5px;
 }
 
