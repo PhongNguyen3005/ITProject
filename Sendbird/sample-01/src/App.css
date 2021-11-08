@@ -297,102 +297,36 @@ a {
 	flex: 1;
 }
 
-/* Join Page */
-.join-container {
-	max-width: 500px;
-	margin: 80px auto;
-	color: #fff;
-}
-
-.join-header {
+/*ListRoom*/
+.ListRoom{
 	text-align: center;
-	padding: 20px;
-	background: var(--dark-color-a);
-	border-top-left-radius: 5px;
-	border-top-right-radius: 5px;
+	padding-top: 20px;
+	font-size: 50px;
+}
+.table__ListRoom{
+	margin-top: 50px;
+	border: solid 1px;
+	
 }
 
-.join-main {
-	padding: 30px 40px;
-	background: var(--dark-color-b);
-}
-
-.join-main p {
-	margin-bottom: 20px;
-}
-
-.join-main .form-control {
-	margin-bottom: 20px;
-}
-
-.join-main label {
-	display: block;
-	margin-bottom: 5px;
-}
-
-.join-main input[type='text'] {
-	font-size: 16px;
-	padding: 5px;
-	height: 40px;
-	width: 100%;
-}
-
-.join-main select {
-	font-size: 16px;
-	padding: 5px;
-	height: 40px;
-	width: 100%;
-}
-
-.join-main .btn {
-	margin-top: 20px;
-	width: 100%;
-}
-.status__user {
-	background-color: #fa5f54;
-	height: calc(4vh);
-	text-transform: uppercase;
-	border-radius: 4px;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	padding: 5px 15px 5px 15px;
-
-}
-.user__online{
-	margin:0 5px 1px 5px;
-	padding: 0px 10px 0 10px;
-	font-size: 20px;
-}
-.dropdown{
-	position: relative;
-}
-.dropdown__list{
-	margin-top: 1.5rem;
-	border-radius: 4px;
+.table__Cell-dhn9jj-7{
+	text-align: center;
 	overflow: hidden;
-	position: relative;
-	display: none;
+	height: 50px !important;
+	max-width: 214.8623853211009px;
+	text-overflow: ellipsis;
+	-webkit-line-clamp: 1;
+  
+}
+.table__Cell-dhn9jj-7:hover{
+	color:rgba(0, 68, 255, 0.61);
+	
+}
+.table__TableRow-dhn9jj-6:hover{
+	background-color:whitesmoke;
+	transition: 0.2s;
 }
 
-.dropdown:hover .dropdown__list{
-	display: block;
-}
-.dropdown__item{
-	padding: 10px;
-	color: white;
-	text-transform: uppercase;
-	font-size: 1rem;
-	font-weight: bold;
-	display: flex;
-	align-items: center;
-	justify-content: space-between;
-	cursor: pointer;
-	transition: background-color 0.2s linear;
-}
-.dropdown__item:hover{
-	background-color: #f75a4e;
-}
 
 @media (max-width: 700px) {
 	.chat-main {

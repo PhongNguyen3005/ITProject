@@ -12,8 +12,9 @@ import LoginPage from 'components/pages/LoginPage';
 import GroupCallApp from './GroupCallApp';
 import DirectCallApp from './DirectCallApp';
 import LandingPage from './components/pages/LandingPage';
-import Auth from 'components/pages/Auth/Auth';
+import ListRoom from 'components/pages/ListRoom/ListRoom';
 import './App.css';
+
 
 function App() {
 
@@ -21,7 +22,7 @@ function App() {
     <Router>
       <Switch>
         <Route exact path="/" component={LandingPage} />
-        <Route path="/direct-call" component={Auth} />
+        <Route path="/direct-call" component={ListRoom} />
         <Route path="/group-call" component={GroupCallApp} />
         <Route path="/login" component={LoginPage} />
       </Switch>
