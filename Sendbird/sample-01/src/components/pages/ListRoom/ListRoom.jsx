@@ -56,36 +56,59 @@ const VersionText = styled.div`
 
 const ListRoom = () => {
   return (
-    <div>
-      <div class="ListRoom">List Room</div>
-      <table class="table__ListRoom">
-        <thead>
-          <tr>
-            <th width="146.1064220183486" class="table__Cell-dhn9jj-7 iubFET"><span class="table__ColumnTitle-dhn9jj-0 iLFVMO"><div class="RoomsTable__Header-sc-7akkds-0 ewMNhw">Room type<div data-test-id="TooltipReference" class="TooltipWrapper__TooltipReference-i2o6ss-0 hzUdWP"><div class="TooltipTargetIcon__Wrapper-sc-1lw71nh-0 cLvFoa"></div></div></div></span></th>
-            <th width="214.8623853211009" class="table__Cell-dhn9jj-7 bTBhlm"><span class="table__ColumnTitle-dhn9jj-0 iLFVMO">Room ID</span></th>
-            <th width="214.8623853211009" class="table__Cell-dhn9jj-7 bTBhlm"><span class="table__ColumnTitle-dhn9jj-0 iLFVMO">Current participants</span></th>
-            <th width="214.8623853211009" class="table__Cell-dhn9jj-7 bTBhlm"><span class="table__ColumnTitle-dhn9jj-0 iLFVMO">Created on</span></th>
-            <th width="146.1064220183486" class="table__Cell-dhn9jj-7 iubFET"><span class="table__ColumnTitle-dhn9jj-0 iLFVMO"><div class="RoomsTable__Header-sc-7akkds-0 ewMNhw">State<div data-test-id="TooltipReference" class="TooltipWrapper__TooltipReference-i2o6ss-0 hzUdWP"><div class="TooltipTargetIcon__Wrapper-sc-1lw71nh-0 cLvFoa"></div></div></div></span></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr class="table__TableRow-dhn9jj-6 cMWyjV">
-            <td width="146.1064220183486" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb dYcjxs"><span class="RoomType__RoomTypeWrapper-sc-10p3uka-0 hpnueF"><svg aria-labelledby="id_hhucZWqO-STpqzflccics" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="icon__StyledSvg-v7mmhy-0 eMuYDz icon__Icon-v7mmhy-1 dEyfsA" aria-label="video"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2 4h15v5.131l5-4V18.87l-5-4V20H2V4z" clip-rule="evenodd"></path></svg></svg>Small video</span></td>
-            <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp"><div class="RoomsTable__RoomIdWrapper-sc-7akkds-1 iatsYL"><a href="/C5F210C7-1B3B-4A20-90AE-41D4C33821EA/calls/group-calls/4f363995-5938-41b7-bf23-981ba0dc518d"><span class="bamm">4f363995-5938-41b7-bf23-9810dc518d</span></a></div></td>
-            <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp"><div class="Dot__DotContainer-jphqq7-0 aYUNL Dot-jphqq7-1 jLmShS"><span class="ParticipantsIndicator___StyledSpan-sc-1ug6tiq-0 cAyzPX">0</span></div></td>
-            <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp">Nov 7, 2021 at 1:00 AM</td>
-            <td width="146.1064220183486" data-is-last-column="true" class="table__Cell-dhn9jj-7 tb dYcjxs"><div class="lozenge__Container-rcbkvg-0 bkMzUJ lozenge__Lozenge-rcbkvg-1 cUToxF" color="purple">OPEN</div></td>
-          </tr>
-          <tr class="table__TableRow-dhn9jj-6 cMWyjV">
-            <td width="146.1064220183486" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb dYcjxs"><span class="RoomType__RoomTypeWrapper-sc-10p3uka-0 hpnueF"><svg aria-labelledby="id_hhucZWqO-STpqzflccics" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="icon__StyledSvg-v7mmhy-0 eMuYDz icon__Icon-v7mmhy-1 dEyfsA" aria-label="video"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2 4h15v5.131l5-4V18.87l-5-4V20H2V4z" clip-rule="evenodd"></path></svg></svg>Small video</span></td>
-            <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp"><div class="RoomsTable__RoomIdWrapper-sc-7akkds-1 iatsYL"><a href="/C5F210C7-1B3B-4A20-90AE-41D4C33821EA/calls/group-calls/4f363995-5938-41b7-bf23-981ba0dc518d"><span class="bamm">4f363995-5938-41b7-bf23-9810dc518d</span></a></div></td>
-            <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp"><div class="Dot__DotContainer-jphqq7-0 aYUNL Dot-jphqq7-1 jLmShS"><span class="ParticipantsIndicator___StyledSpan-sc-1ug6tiq-0 cAyzPX">0</span></div></td>
-            <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp">Nov 7, 2021 at 1:00 AM</td>
-            <td width="146.1064220183486" data-is-last-column="true" class="table__Cell-dhn9jj-7 tb dYcjxs"><div class="lozenge__Container-rcbkvg-0 bkMzUJ lozenge__Lozenge-rcbkvg-1 cUToxF" color="purple">OPEN</div></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <Wrapper>
+      <div>
+        <div class="ListRoom">List Room</div>
+        <table class="table__ListRoom">
+          <thead>
+            <tr>
+              <th width="214.8623853211009" class="table__Cell-dhn9jj-7 iubFET"><span class="table__ColumnTitle-dhn9jj-0 iLFVMO"><div class="RoomsTable__Header-sc-7akkds-0 ewMNhw">Room Name<div data-test-id="TooltipReference" class="TooltipWrapper__TooltipReference-i2o6ss-0 hzUdWP"><div class="TooltipTargetIcon__Wrapper-sc-1lw71nh-0 cLvFoa"></div></div></div></span></th>
+              <th width="214.8623853211009" class="table__Cell-dhn9jj-7 bTBhlm"><span class="table__ColumnTitle-dhn9jj-0 iLFVMO">Room ID</span></th>
+              <th width="214.8623853211009" class="table__Cell-dhn9jj-7 bTBhlm"><span class="table__ColumnTitle-dhn9jj-0 iLFVMO">Current participants</span></th>
+              <th width="214.8623853211009" class="table__Cell-dhn9jj-7 bTBhlm"><span class="table__ColumnTitle-dhn9jj-0 iLFVMO">Created on</span></th>
+              <th width="146.1064220183486" class="table__Cell-dhn9jj-7 iubFET"><span class="table__ColumnTitle-dhn9jj-0 iLFVMO"><div class="RoomsTable__Header-sc-7akkds-0 ewMNhw">State<div data-test-id="TooltipReference" class="TooltipWrapper__TooltipReference-i2o6ss-0 hzUdWP"><div class="TooltipTargetIcon__Wrapper-sc-1lw71nh-0 cLvFoa"></div></div></div></span></th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table__TableRow-dhn9jj-6 cMWyjV">
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb dYcjxs"><span class="RoomType__RoomTypeWrapper-sc-10p3uka-0 hpnueF"><svg aria-labelledby="id_hhucZWqO-STpqzflccics" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="icon__StyledSvg-v7mmhy-0 eMuYDz icon__Icon-v7mmhy-1 dEyfsA" aria-label="video"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2 4h15v5.131l5-4V18.87l-5-4V20H2V4z" clip-rule="evenodd"></path></svg></svg>NameOfRoom</span></td>
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp"><div class="RoomsTable__RoomIdWrapper-sc-7akkds-1 iatsYL"><a href="/C5F210C7-1B3B-4A20-90AE-41D4C33821EA/calls/group-calls/4f363995-5938-41b7-bf23-981ba0dc518d"><span class="bamm">4f363995-5938-41b7-bf23-9810dc518d</span></a></div></td>
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp"><div class="Dot__DotContainer-jphqq7-0 aYUNL Dot-jphqq7-1 jLmShS"><span class="ParticipantsIndicator___StyledSpan-sc-1ug6tiq-0 cAyzPX">0</span></div></td>
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp">Nov 7, 2021 at 1:00 AM</td>
+              <td width="146.1064220183486" data-is-last-column="true" class="table__Cell-dhn9jj-7 tb dYcjxs"><div class="lozenge__Container-rcbkvg-0 bkMzUJ lozenge__Lozenge-rcbkvg-1 cUToxF" color="purple">OPEN<button class="delete_bt"><img src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/17/000000/external-delete-miscellaneous-kiranshastry-gradient-kiranshastry.png" /></button></div></td>
+            </tr>
+            <tr class="table__TableRow-dhn9jj-6 cMWyjV">
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb dYcjxs"><span class="RoomType__RoomTypeWrapper-sc-10p3uka-0 hpnueF"><svg aria-labelledby="id_hhucZWqO-STpqzflccics" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="icon__StyledSvg-v7mmhy-0 eMuYDz icon__Icon-v7mmhy-1 dEyfsA" aria-label="video"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2 4h15v5.131l5-4V18.87l-5-4V20H2V4z" clip-rule="evenodd"></path></svg></svg>NameOfRoom</span></td>
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp"><div class="RoomsTable__RoomIdWrapper-sc-7akkds-1 iatsYL"><a href="/C5F210C7-1B3B-4A20-90AE-41D4C33821EA/calls/group-calls/4f363995-5938-41b7-bf23-981ba0dc518d"><span class="bamm">4f363995-5938-41b7-bf23-9810dc518d</span></a></div></td>
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp"><div class="Dot__DotContainer-jphqq7-0 aYUNL Dot-jphqq7-1 jLmShS"><span class="ParticipantsIndicator___StyledSpan-sc-1ug6tiq-0 cAyzPX">0</span></div></td>
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp">Nov 7, 2021 at 1:00 AM</td>
+              <td width="146.1064220183486" data-is-last-column="true" class="table__Cell-dhn9jj-7 tb dYcjxs"><div class="lozenge__Container-rcbkvg-0 bkMzUJ lozenge__Lozenge-rcbkvg-1 cUToxF" color="purple">OPEN<button class="delete_bt"><img src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/17/000000/external-delete-miscellaneous-kiranshastry-gradient-kiranshastry.png" /></button></div></td>
+            </tr>
+            <tr class="table__TableRow-dhn9jj-6 cMWyjV">
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb dYcjxs"><span class="RoomType__RoomTypeWrapper-sc-10p3uka-0 hpnueF"><svg aria-labelledby="id_hhucZWqO-STpqzflccics" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="icon__StyledSvg-v7mmhy-0 eMuYDz icon__Icon-v7mmhy-1 dEyfsA" aria-label="video"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2 4h15v5.131l5-4V18.87l-5-4V20H2V4z" clip-rule="evenodd"></path></svg></svg>NameOfRoom</span></td>
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp"><div class="RoomsTable__RoomIdWrapper-sc-7akkds-1 iatsYL"><a href="/C5F210C7-1B3B-4A20-90AE-41D4C33821EA/calls/group-calls/4f363995-5938-41b7-bf23-981ba0dc518d"><span class="bamm">4f363995-5938-41b7-bf23-9810dc518d</span></a></div></td>
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp"><div class="Dot__DotContainer-jphqq7-0 aYUNL Dot-jphqq7-1 jLmShS"><span class="ParticipantsIndicator___StyledSpan-sc-1ug6tiq-0 cAyzPX">0</span></div></td>
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp">Nov 7, 2021 at 1:00 AM</td>
+              <td width="146.1064220183486" data-is-last-column="true" class="table__Cell-dhn9jj-7 tb dYcjxs"><div class="lozenge__Container-rcbkvg-0 bkMzUJ lozenge__Lozenge-rcbkvg-1 cUToxF" color="purple">OPEN<button class="delete_bt"><img src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/17/000000/external-delete-miscellaneous-kiranshastry-gradient-kiranshastry.png" /></button></div></td>
+            </tr>
+            <tr class="table__TableRow-dhn9jj-6 cMWyjV">
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb dYcjxs"><span class="RoomType__RoomTypeWrapper-sc-10p3uka-0 hpnueF"><svg aria-labelledby="id_hhucZWqO-STpqzflccics" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="icon__StyledSvg-v7mmhy-0 eMuYDz icon__Icon-v7mmhy-1 dEyfsA" aria-label="video"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2 4h15v5.131l5-4V18.87l-5-4V20H2V4z" clip-rule="evenodd"></path></svg></svg>NameOfRoom</span></td>
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp"><div class="RoomsTable__RoomIdWrapper-sc-7akkds-1 iatsYL"><a href="/C5F210C7-1B3B-4A20-90AE-41D4C33821EA/calls/group-calls/4f363995-5938-41b7-bf23-981ba0dc518d"><span class="bamm">4f363995-5938-41b7-bf23-9810dc518d</span></a></div></td>
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp"><div class="Dot__DotContainer-jphqq7-0 aYUNL Dot-jphqq7-1 jLmShS"><span class="ParticipantsIndicator___StyledSpan-sc-1ug6tiq-0 cAyzPX">0</span></div></td>
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp">Nov 7, 2021 at 1:00 AM</td>
+              <td width="146.1064220183486" data-is-last-column="true" class="table__Cell-dhn9jj-7 tb dYcjxs"><div class="lozenge__Container-rcbkvg-0 bkMzUJ lozenge__Lozenge-rcbkvg-1 cUToxF" color="purple">OPEN<button class="delete_bt"><img src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/17/000000/external-delete-miscellaneous-kiranshastry-gradient-kiranshastry.png" /></button></div></td>
+            </tr>
+            <tr class="table__TableRow-dhn9jj-6 cMWyjV">
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb dYcjxs"><span class="RoomType__RoomTypeWrapper-sc-10p3uka-0 hpnueF"><svg aria-labelledby="id_hhucZWqO-STpqzflccics" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" class="icon__StyledSvg-v7mmhy-0 eMuYDz icon__Icon-v7mmhy-1 dEyfsA" aria-label="video"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M2 4h15v5.131l5-4V18.87l-5-4V20H2V4z" clip-rule="evenodd"></path></svg></svg>NameOfRoom</span></td>
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp"><div class="RoomsTable__RoomIdWrapper-sc-7akkds-1 iatsYL"><a href="/C5F210C7-1B3B-4A20-90AE-41D4C33821EA/calls/group-calls/4f363995-5938-41b7-bf23-981ba0dc518d"><span class="bamm">4f363995-5938-41b7-bf23-9810dc518d</span></a></div></td>
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp"><div class="Dot__DotContainer-jphqq7-0 aYUNL Dot-jphqq7-1 jLmShS"><span class="ParticipantsIndicator___StyledSpan-sc-1ug6tiq-0 cAyzPX">0</span></div></td>
+              <td width="214.8623853211009" data-is-last-column="false" class="table__Cell-dhn9jj-7 tb iFyXnp">Nov 7, 2021 at 1:00 AM</td>
+              <td width="146.1064220183486" data-is-last-column="true" class="table__Cell-dhn9jj-7 tb dYcjxs"><div class="lozenge__Container-rcbkvg-0 bkMzUJ lozenge__Lozenge-rcbkvg-1 cUToxF" color="purple">OPEN<button class="delete_bt"><img src="https://img.icons8.com/external-kiranshastry-gradient-kiranshastry/17/000000/external-delete-miscellaneous-kiranshastry-gradient-kiranshastry.png" /></button></div></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </Wrapper>
   )
 }
 export default ListRoom;
